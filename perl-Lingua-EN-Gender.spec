@@ -3,7 +3,7 @@ Summary:	Lingua-EN-Gender perl module
 Summary(pl):	Modu³ perla Lingua-EN-Gender
 Name:		perl-Lingua-EN-Gender
 Version:	0.02
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
