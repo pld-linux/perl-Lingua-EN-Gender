@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	EN-Gender
-Summary:	Lingua-EN-Gender perl module
-Summary(pl):	Modu³ perla Lingua-EN-Gender
+Summary:	Lingua::EN::Gender perl module
+Summary(pl):	Modu³ perla Lingua::EN::Gender
 Name:		perl-Lingua-EN-Gender
 Version:	0.02
 Release:	8
@@ -15,12 +15,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Lingua-EN-Gender - Inflect pronouns for a bunch of different genders.
+Lingua::EN::Gender - Inflect pronouns for a bunch of different genders.
 Genders currently supported are: neuter, male, female, either, spivak,
 splat, plural, egotistical, royal, 2nd, sie/hir, zie/zir.
 
 %description -l pl
-Lingua-EN-Gender - odmiana zaimków dla rodzajów: neuter, male, female,
+Lingua::EN::Gender - odmiana zaimków dla rodzajów: neuter, male, female,
 either, spivak, splat, plural, egotistical, royal, 2nd, sie/hir,
 zie/zir.
 
