@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	EN-Gender
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua-EN-Gender perl module
 Summary(pl):	Modu³ perla Lingua-EN-Gender
 Name:		perl-Lingua-EN-Gender
 Version:	0.02
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -26,7 +25,7 @@ either, spivak, splat, plural, egotistical, royal, 2nd, sie/hir,
 zie/zir.
 
 %prep
-%setup -q -n Lingua-EN-Gender-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
