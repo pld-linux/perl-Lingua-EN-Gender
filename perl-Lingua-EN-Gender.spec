@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Lingua::EN::Gender
 Name:		perl-Lingua-EN-Gender
 Version:	0.02
 Release:	9
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b8f3877aabfc2be31e587d99ea792176
