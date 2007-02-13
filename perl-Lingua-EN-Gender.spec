@@ -2,7 +2,7 @@
 %define		pdir	Lingua
 %define		pnam	EN-Gender
 Summary:	Lingua::EN::Gender perl module
-Summary(pl.UTF-8):   Moduł perla Lingua::EN::Gender
+Summary(pl.UTF-8):	Moduł perla Lingua::EN::Gender
 Name:		perl-Lingua-EN-Gender
 Version:	0.02
 Release:	10
