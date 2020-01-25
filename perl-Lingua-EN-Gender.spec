@@ -1,6 +1,5 @@
 %define		pdir	Lingua
 %define		pnam	EN-Gender
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::EN::Gender perl module
 Summary(pl.UTF-8):	Moduł perla Lingua::EN::Gender
 Name:		perl-Lingua-EN-Gender
